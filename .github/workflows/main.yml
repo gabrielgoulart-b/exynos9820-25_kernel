@@ -2,7 +2,7 @@
       run: |
         ./build config               
                 os_patch_level=2020-12
-                model=G975F          
+                model=G970F          
                 name="OwnKernel"       
                 +magisk+canary       
                 +wireguard           
