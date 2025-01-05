@@ -1,12 +1,15 @@
- - name: Kernel Configure
+- name: Kernel Configure
       run: |
-        ./build config               
-                os_patch_level=2023-01
-                model=G970F          
-                name="OwnKernel"       
-                +magisk+canary       
-                +wireguard           
-                +nohardening         
-                +1000hz
-
-
+        ./build config         
+                model=G970F    
+                name="CRUEL-V3.3"
+                +magisk        
+                +nohardening   
+                +ttl           
+                +wireguard     
+                +cifs          
+                +sdfat         
+                +ntfs          
+                +tcp_cibuc     
+                +morosound     
+                +boeffla_wl_blocker
