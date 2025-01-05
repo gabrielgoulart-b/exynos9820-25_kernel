@@ -1,7 +1,7 @@
  - name: Kernel Configure
       run: |
         ./build config               
-                os_patch_level=2020-12
+                os_patch_level=2023-01
                 model=G970F          
                 name="OwnKernel"       
                 +magisk+canary       
